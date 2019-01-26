@@ -1,7 +1,6 @@
 import unittest
 import mock
 from tracer.tracer_data_store import TracerStore, CampaignDailyAction, CampaignDaily, Campaign
-from StringIO import StringIO
 import datetime
 
 TEST_STATS = '\n'.join([
